@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #c0e7e7;
+        }
+        header,footer{background-color:rgb(90, 90, 122);
+        text-align: center;
+        text-decoration: none;
+        padding: 4px; 
+        color: aliceblue;
+        }
+        .navitem{
+            display: inline;
+            padding: 15px;
+        }
+        .navitem a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .form{
+            margin-left: auto;
+            margin-right: auto;
+            width: max-content;
+        }
+        table{
+            width:100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        .emp{
+            text-align: center;
+        }
+        th,td{
+            border: 1px solid cornflowerblue ;
+            padding: 8px;
+        }
+        .cont{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+<header>
+    <h1>Welcome to Company HR Portal</h1>
+    <nav>
+      <li class="navitem"> <a href="#registraion-portal">Registraion Form</a></li>
+      <li class="navitem"><a href=" #contact-us">Contact Us</a></li>
+       <li class="navitem"> <a href= "#employee-directory">Employee Directory</a></li>
+    </nav>
+</header>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKRYhmyye9WNfxFSBkiVBpMOM5cK1IGV0kMw&s" style="width: 100%;" background-color="#CEEFF2">
+    <section id="registration-portal" class="form">
+        <h2>Registraion Form</h2>
+        <p>Fill the below <em>Registraion Form</em></p>
+      <form>
+        <lable for="name">Enter Name</lable>
+        <input type="text" id="name"><br>
+       <br> <lable for="email">Enter Email</lable>
+        <input type="email" id="email"><br>
+       <br> <lable for="password">Enter Password</lable>
+        <input id="password" type="password"><br>
+        <br><label for="date">Fill the Date of Joining</label>
+        <input id="date" type="date"><br>
+        <br><lable for="role">Choose Job Role</lable>
+        <select>
+            <option>Software Engineer</option>
+            <option>Product Manger</option>
+            <option>Peon</option>
+            <option>HR Representative</option>
+        </select><br>
+        <br><input type="submit">
+      </form>
+    </section>
+    <section id="employee-directory" class="emp">
+        <h2>Employee Directory</h2>
+        <p>List of all registered employees</p>
+        <table>
+<tr>
+    <th>Name</th>
+    <th>Employee ID</th>
+    <th>Employee Role</th>
+</tr>
+<tr>
+    <td>Nimish Singh</td>
+    <td>266</td>
+    <td>Software Engineer</td>
+</tr>
+<tr>
+    <td>Anik Mishra</td>
+    <td>111</td>
+    <td>Product Manager</td>
+</tr>
+<tr>
+    <td>Harsh Tiwari</td>
+    <td>420</td>
+    <td>Peon</td>
+</tr>
+        </table>
+    </section>
+    <section id="contact-us" class="cont">
+        <h2>Contact Us</h2>
+        <p>You can contact-us at anikoffical@gmail.com or visit us between 9A.M - 6P.M</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.029602387259!2d82.97202197516722!3d25.303209477642927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e3304c2be24ed%3A0x46212543bbcb2780!2sTata%20Consultancy%20Services!5e0!3m2!1sen!2sin!4v1729416296967!5m2!1sen!2sin" width="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+    </section>
+    <footer><p>&copy;2024 Anik</p></footer>
+</body>
+</html>
